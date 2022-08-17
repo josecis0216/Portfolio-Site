@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav>
-      <h1><router-link to="/">Home</router-link></h1>
+      <h1><router-link to="/home">Home</router-link></h1>
       <ul>
         <li><router-link to="/about">About Us</router-link></li>
         <li><router-link to="/contact">Contact Us</router-link></li>

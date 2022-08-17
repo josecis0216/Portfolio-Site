@@ -1,6 +1,6 @@
 <template>
-  <footer>
-    <nav>
+  <div>
+    <footer class="grid-container">
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About Us</router-link></li>
@@ -12,14 +12,13 @@
       <div class="center">
         <h4>Copyright Jose Cisneros - 2022</h4>
       </div>
-    </nav>
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
 footer {
   width: 100%;
-  height: 5rem;
   /* background-color: #3d008d; */
   background-color: lightgrey;
   display: flex;
@@ -57,7 +56,7 @@ h1 a.router-link-active {
 }
 
 footer nav {
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -77,19 +76,12 @@ li {
   margin: 0 0.5rem;
 }
 .center {
-  margin: 25px auto 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196f3;
-  padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
 }
 </style>
