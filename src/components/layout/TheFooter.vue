@@ -37,7 +37,8 @@ footer a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid #f391e3;
+  /* border: 1px solid #f391e3; */
+  color: black;
 }
 
 h1 {
