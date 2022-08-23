@@ -13,11 +13,11 @@
       <div class="grid-container">
         <div>
             <h4>Epoxy Floors Website</h4>
-            <a href="www.google.com" alt="link to epic site for epoxy floors">Epic Flooring</a>
+            <a href="https://epicfloors.netlify.app/" alt="link to epic site for epoxy floors" target="_blank">Epic Flooring</a>
         </div>
         <div>
             <h4>Coaches List Website</h4>
-            <a href="wwww.coaches.com" alt="link to coaches site">Coaches</a>
+            <a href="https://vue-practice-88f8e.web.app/coaches" alt="link to coaches site" target="_blank">Coaches</a>
         </div>
       </div>
     </base-card>
