@@ -1,4 +1,5 @@
 <template>
+  <!-- <v-img :src="require('./assets/logo.png')" style="max-height:50px;max-width:50px;"/> -->
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <monster-slayer />
