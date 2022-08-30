@@ -80,6 +80,7 @@ li {
 .center {
   display: flex;
   justify-content: center;
+  color:white;
 }
 .grid-container {
   display: grid;

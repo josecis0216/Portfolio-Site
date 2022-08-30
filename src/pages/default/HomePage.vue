@@ -25,12 +25,14 @@
     <v-row>
       <v-col cols="12" sm="12">
         <base-card style="max-width: 60rem">
-          <h2>Welcome to my page!</h2>
+          <h2>Welcome!</h2>
           <p class="introP">
             I am a full stack web developer. I am most familiar with vb.net, but
-            have currently been working with Vuejs. I plan to learn more react,
-            however I plan to continue improving my skillset with Vuejs and
-            Vb.net. I am also familiar with SQL and relational databases.
+            have currently been working with Vuejs. I am currently working on building
+            web apps using nuxt.js and want to increase my knowledge using Vuejs. Along with
+            vb.net, I am very familiar with ms SQL and relational databases. I've learned some GraphQL,
+            but have a lot to learn still. Anyway, keep looking around and let me know if you want to 
+            get in touch! <base-button link="true" to="/contact">Get In Contact!</base-button>
           </p>
           <p>
             Check out my
