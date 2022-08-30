@@ -1,7 +1,5 @@
 <template>
-  <!-- <v-img :src="require('./assets/logo.png')" style="max-height:50px;max-width:50px;"/> -->
-  <img alt="Vue logo" src="./assets/logo.png">
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <v-img :src="require('./assets/logo.png')" aspect-ratio="1" max-height="135px" />
   <monster-slayer />
 </template>
 
@@ -24,5 +22,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.vue-logo {
+  max-height: 10%;
 }
 </style>

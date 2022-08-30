@@ -3,8 +3,8 @@
     <footer class="grid-container">
       <ul>
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About Us</router-link></li>
-        <li><router-link to="/contact">Contact Us</router-link></li>
+        <li><router-link to="/about">About Me</router-link></li>
+        <li><router-link to="/contact">Contact Me</router-link></li>
         <!-- <li v-if="isLoggedIn"><router-link to="/requests">Requests</router-link></li> -->
         <!-- <li v-else><router-link to="/auth">Log In</router-link></li> -->
         <!-- <li v-if="isLoggedIn"><base-button @click="logout">Logout</base-button></li> -->
@@ -20,7 +20,7 @@
 footer {
   width: 100%;
   /* background-color: #3d008d; */
-  background-color: lightgrey;
+  background-color: #433a50;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,8 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #f391e3;
+  /* color: #f391e3; */
+  color: white;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;

@@ -19,7 +19,7 @@ export default {
           userEmail: payload.email,
           message: payload.message,
         };
-        const response = await fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/requests.json`, { //fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/${payload.coachId}.json`
+        const response = await fetch(`https://vue-portfolio-d7dea-default-rtdb.firebaseio.com/requests.json`, { //fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/requests.json`
               method: 'POST',
               body: JSON.stringify(requestData)
             })
@@ -37,7 +37,7 @@ export default {
             context.commit('addRequest', requestData);
       },
       async loadRequests(context) {
-        const response = await fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/requests.json`);  //fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/${coachId}.json?auth=` + token)
+        const response = await fetch(`https://vue-portfolio-d7dea-default-rtdb.firebaseio.com/requests.json`);  //fetch(`https://vue-practice-88f8e-default-rtdb.firebaseio.com/requests/requests.json`)
   
         const responseData = await response.json();
   

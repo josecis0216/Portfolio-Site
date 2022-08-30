@@ -1,10 +1,10 @@
 <template>
   <header>
     <nav>
-      <h1><router-link to="/">Home</router-link></h1>
+      <h1><router-link to="/">JC</router-link></h1>
       <ul>
-        <li><router-link to="/about">About Us</router-link></li>
-        <li><router-link to="/contact">Contact Us</router-link></li>
+        <li><router-link to="/about">About Me</router-link></li>
+        <li><router-link to="/contact">Contact Me</router-link></li>
         <!-- <li v-if="isLoggedIn"><router-link to="/requests">Requests</router-link></li> -->
         <!-- <li v-else><router-link to="/auth">Log In</router-link></li> -->
         <!-- <li v-if="isLoggedIn"><base-button @click="logout">Logout</base-button></li> -->
@@ -33,7 +33,7 @@ export default {
 header {
   width: 100%;
   height: 5rem;
-  background-color: #3d008d;
+  background-color: #433a50;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,8 @@ header {
 
 header a {
   text-decoration: none;
-  color: #f391e3;
+  /* color: #f391e3; */
+  color: white;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
