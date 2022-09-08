@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row style="background-color: antiquewhite">
-      <v-col cols="12" sm="12" lg="6">
+      <v-col cols="12" sm="6" md="6" lg="6">
         <div class="title">
           <h5>Web Developer</h5>
           <h1>
@@ -10,7 +10,7 @@
           </h1>
         </div>
       </v-col>
-      <v-col cols="12" sm="12" lg="6">
+      <v-col cols="12" sm="6" md="6" lg="6">
         <div class="img-styles">
           <v-img
             :src="require('../../assets/headshot.jpg')"
