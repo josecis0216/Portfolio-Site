@@ -32,6 +32,15 @@
                 >Coaches</a
               >
             </div>
+            <div>
+              <h4>Sell Home Project</h4>
+              <a
+              href="#"
+              alt="link to sell home site"
+              targe="_blank">
+              Sell Home Website
+            </a>
+            </div>
           </div>
         </base-card>
       </v-col>

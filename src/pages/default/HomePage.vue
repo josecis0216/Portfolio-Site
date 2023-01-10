@@ -36,7 +36,7 @@
           </p>
           <p>
             Check out my
-            <a href="www.github.com/josecis0216" target="_blank">GitHub Page</a>
+            <a href="https://www.github.com/josecis0216" target="_blank">GitHub Page</a>
           </p>
         </base-card>
       </v-col>
